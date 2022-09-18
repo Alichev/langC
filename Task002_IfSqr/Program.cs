@@ -2,7 +2,7 @@
 
 Clear();
 Write("Введите первое число: ");
-int num1 = Convert.ToInt32(Console.ReadLine()!);
+int num1 = Convert.ToInt32(ReadLine()!);
 Write("Введите второе число: ");
 int num2 = int.Parse(ReadLine()!);
 
