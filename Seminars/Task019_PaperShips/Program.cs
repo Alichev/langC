@@ -6,6 +6,12 @@ Clear();
 Write("Общее количество сделанных корабликов: ");
 int num = int.Parse(ReadLine()!);
 
+if (num % 6 != 0)
+{
+    WriteLine("Некорректное число, не делится на 6 нацело");
+    return;
+}
+
 
 double boy = Math.Round((Convert.ToDouble(num)) / 6, 2);
 double girl = Math.Round(4 * boy, 2);
